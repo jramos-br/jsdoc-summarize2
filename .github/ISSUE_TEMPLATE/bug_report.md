@@ -24,7 +24,8 @@ A clear and concise description of what you want to happen.
 A clear and concise description of what happened instead, that you consider a problem or bug.
 
 **JSDoc command line and configuration file**
-The contents of your JSDoc configuration file, if any, and the command line used to run JSDoc. If the command line starts with `npm run` then it is likely that part of it is in the `scripts` section of the `package.json` file.
+The contents of your JSDoc [configuration file](http://usejsdoc.org/about-configuring-jsdoc.html), if any, and the command line used to run JSDoc.
+If the command line starts with `npm run` then it is likely that part of it is stored in the `scripts` property in the `package.json` file.
 
 **Screenshots**
 If applicable, add screenshots to help explain the problem.
