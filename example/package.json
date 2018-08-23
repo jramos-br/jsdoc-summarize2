@@ -1,0 +1,25 @@
+{
+  "name": "jsdoc-summarize2-example",
+  "version": "0.1.0",
+  "description": "Example for the jsdoc-summarize2 jsdoc plug-in.",
+  "main": "index.js",
+  "directories": {},
+  "scripts": {
+    "jsdoc": "jsdoc -c jsdoc-conf.json index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jramos-br/jsdoc-summarize2"
+  },
+  "keywords": [
+    "jsdoc",
+    "plugin",
+    "summary",
+    "example"
+  ],
+  "author": "Jorge Ramos <jramos@pobox.com> (https://github.com/jramos-br)",
+  "license": "MIT",
+  "devDependencies": {
+    "jsdoc": "^3.5.5"
+  }
+}
