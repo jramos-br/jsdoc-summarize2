@@ -25,7 +25,7 @@ When there are more than two description tags, the remaining tags are combined i
 
 It's just a matter of taste.
 The [Visual Studio Code Intellisense](https://code.visualstudio.com/docs/languages/javascript#_intellisense) uses JSDoc tags to determine object types.
-The absence of the `@summary` tag just let the Intellisense output more cleaner.
+The absence of the `@summary` tag lets the Intellisense output a little more cleaner.
 Besides that, sometimes it's good to create multiple paragraphs of description without markdown or HTML embedded tags.
 
 ## How to install
