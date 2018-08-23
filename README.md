@@ -107,7 +107,7 @@ The plugin will change the doclet into the following.
  */
 ```
 
-You can see the generated HTML [here](example/out/module-example.html).
+You can see the generated HTML [here](http://htmlpreview.github.io/?https://github.com/jramos-br/jsdoc-summarize2/blob/master/example/out/module-example.html).
 
 The complete example is in [example](example) directory.
 
