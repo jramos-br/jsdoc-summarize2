@@ -2,6 +2,10 @@
 
 > A JSDoc plugin to transform the first of the description tags into a summary tag.
 
+[![GitHub license](https://img.shields.io/github/license/jramos-br/jsdoc-summarize2.svg)](https://github.com/jramos-br/jsdoc-summarize2/blob/master/LICENSE)
+[![node](https://img.shields.io/node/v/passport.svg)](https://www.npmjs.com/package/jsdoc-summarize2)
+[![npm](https://img.shields.io/npm/v/jsdoc-summarize2.svg)](https://www.npmjs.com/package/jsdoc-summarize2)
+
 [Example](#example)<br/>
 [Motivation](#motivation)<br/>
 [Quickstart](#quickstart)<br/>
@@ -11,10 +15,10 @@
 [Contributing](#contributing)<br/>
 [License](#license)<br/>
 
-This is a plugin for JSDoc, which is a tool to generate HTML documentation from comment blocks in your JavaScript files.
+This is a plugin for JSDoc, which is a tool to generate HTML documentation from comment blocks in JavaScript files.
 For more information about JSDoc, please visit http://usejsdoc.org.
 
-The comment block looks like this:
+A JSDoc comment block looks like this:
 
 ```js
 /**
@@ -27,11 +31,11 @@ The comment block looks like this:
 ```
 
 The Summarize2 plugin changes some tags of the comment block according to a simple set of rules.
-In short, when there is more than one description tag, the plugin changes the first one into a summary tag.
+In short, when there is more than one description tag, the plugin changes the first one into a summary tag, if it doesn't already exist.
 
 ## Example
 
-This is a documentation comment block using JSDoc tags of a simple function.
+This is a JSDoc documentation comment block of a simple function.
 
 ```js
 /**
@@ -53,6 +57,9 @@ This is a documentation comment block using JSDoc tags of a simple function.
 
 When JSDoc runs, the plugin changes the original comment block as follows.
 
+- A summary tag was created from the first (untagged) description.
+- The two other descriptions were combined into a single one.
+
 ```js
 /**
  * @summary A function to add two Fibonacci primes.
@@ -69,9 +76,6 @@ When JSDoc runs, the plugin changes the original comment block as follows.
  * @see https://en.wikipedia.org/wiki/Fibonacci_prime
  */
 ```
-
-- A summary tag was created from the first (untagged) description.
-- The two other descriptions were combined into a single one.
 
 You can see the generated HTML [here](http://htmlpreview.github.io/?https://github.com/jramos-br/jsdoc-summarize2/blob/master/example/out/module-example.html).
 
@@ -98,7 +102,7 @@ The first one is untagged and the second is tagged.
  */
 ```
 
-The default behavior of JSDoc is to use only the last description in the comment block. The previous descriptions are ignored.
+The default behavior of JSDoc is to use only the last description in the comment block. Previous descriptions, if any, are ignored.
 Using the Summarize2 plugin, you can write a comment block like above and the plugin automatically will change the first description into a summary.
 
 ## Quickstart

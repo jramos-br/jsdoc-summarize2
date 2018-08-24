@@ -6,6 +6,9 @@
   "directories": {
     "example": "./example"
   },
+  "engines": {
+    "node": ">=4.2.0"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/jramos-br/jsdoc-summarize2.git"
