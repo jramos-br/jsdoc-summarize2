@@ -5,11 +5,11 @@
   "main": "index.js",
   "directories": {},
   "scripts": {
-    "jsdoc": "jsdoc -c jsdoc-conf.json index.js"
+    "jsdoc": "jsdoc -c jsdoc-conf.js index.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jramos-br/jsdoc-summarize2"
+    "url": "https://github.com/jramos-br/jsdoc-summarize2.git"
   },
   "keywords": [
     "jsdoc",
@@ -17,6 +17,7 @@
     "summary",
     "example"
   ],
+  "homepage": "https://github.com/jramos-br/jsdoc-summarize2/tree/master/example",
   "author": "Jorge Ramos <jramos@pobox.com> (https://github.com/jramos-br)",
   "license": "MIT",
   "devDependencies": {

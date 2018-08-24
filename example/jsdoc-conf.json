@@ -1,6 +1,6 @@
 {
   "plugins": [
-    "../index.js"
+    "jsdoc-summarize2"
   ],
   "recurseDepth": 10,
   "source": {
