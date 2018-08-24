@@ -1,18 +1,24 @@
 {
   "name": "jsdoc-summarize2",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A jsdoc plug-in to transform the first of the description tags into a summary tag.",
   "main": "index.js",
-  "directories": {},
+  "directories": {
+    "example": "./example"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jramos-br/jsdoc-summarize2"
+    "url": "https://github.com/jramos-br/jsdoc-summarize2.git"
   },
   "keywords": [
     "jsdoc",
     "plugin",
     "summary"
   ],
+  "bugs": {
+    "url": "https://github.com/jramos-br/jsdoc-summarize2/issues"
+  },
+  "homepage": "https://github.com/jramos-br/jsdoc-summarize2",
   "author": "Jorge Ramos <jramos@pobox.com> (https://github.com/jramos-br)",
   "license": "MIT"
 }
