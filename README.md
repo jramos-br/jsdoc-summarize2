@@ -3,8 +3,8 @@
 > A JSDoc plugin to transform the first of the description tags into a summary tag.
 
 [![GitHub license](https://img.shields.io/github/license/jramos-br/jsdoc-summarize2.svg)](https://github.com/jramos-br/jsdoc-summarize2/blob/master/LICENSE)
-[![node](https://img.shields.io/node/v/passport.svg)](https://www.npmjs.com/package/jsdoc-summarize2)
 [![npm](https://img.shields.io/npm/v/jsdoc-summarize2.svg)](https://www.npmjs.com/package/jsdoc-summarize2)
+[![node](https://img.shields.io/node/v/jsdoc-summarize2.svg)](https://github.com/jramos-br/jsdoc-summarize2)
 
 [Example](#example)<br/>
 [Motivation](#motivation)<br/>
@@ -15,7 +15,9 @@
 [Contributing](#contributing)<br/>
 [License](#license)<br/>
 
-This is a plugin for JSDoc, which is a tool to generate HTML documentation from comment blocks in JavaScript files.
+---
+
+Summarize2 is a plugin for JSDoc, which is a tool to generate HTML documentation from comment blocks added directly in JavaScript source code.
 For more information about JSDoc, please visit http://usejsdoc.org.
 
 A JSDoc comment block looks like this:
@@ -27,6 +29,8 @@ A JSDoc comment block looks like this:
  * @description A long and more or less detailed description of a program
  * element, usually spanning multiple lines and eventually with HTML and
  * markdown formatted text.
+ *
+ * @type {string}
  */
 ```
 
@@ -35,7 +39,7 @@ In short, when there is more than one description tag, the plugin changes the fi
 
 ## Example
 
-This is a JSDoc documentation comment block of a simple function.
+Here is a JSDoc documentation comment block of a simple function.
 
 ```js
 /**
@@ -55,10 +59,10 @@ This is a JSDoc documentation comment block of a simple function.
  */
 ```
 
-When JSDoc runs, the plugin changes the original comment block as follows.
+When JSDoc runs, the plugin changes the original comment block as follows:
 
-- A summary tag was created from the first (untagged) description.
-- The two other descriptions were combined into a single one.
+- A summary tag is created from the first (untagged) description.
+- The two other descriptions are combined into a single one.
 
 ```js
 /**
@@ -103,7 +107,7 @@ The first one is untagged and the second is tagged.
 ```
 
 The default behavior of JSDoc is to use only the last description in the comment block. Previous descriptions, if any, are ignored.
-Using the Summarize2 plugin, you can write a comment block like above and the plugin automatically will change the first description into a summary.
+Using the Summarize2 plugin, you can write a comment block like above and, during the JSDoc run, the plugin automatically changes the first description into a summary.
 
 ## Quickstart
 
@@ -215,9 +219,9 @@ If you prefer a global rather than a local install, please change `--save-dev` t
 
 3. Next you need to tell JSDoc to enable the Summarize2 plugin.
 You do this by creating or changing a [JSDoc configuration file](http://usejsdoc.org/about-configuring-jsdoc.html).
-When you later run JSdoc, you must tell it to use this configuration file.
+When you later run JSdoc, you must tell it to use the configuration file.
 
-    The `plugins` property in the JSDoc configuration file must include a Summarize2 plugin reference, as follows.
+    The `plugins` property in the JSDoc configuration file must include a Summarize2 plugin reference, as follows:
 
     ```json
     {
@@ -273,7 +277,7 @@ The installation instructions suggested the name `jsdoc-conf.json` for it.
 
 If you also want to uninstall JSDoc:
 
-1. If you changed the `scripts` property in the `package.json` to define a command to execute JSDoc via `npm run`, then remove that command definition.
+1. If you changed the `scripts` property in the `package.json` to define a command to execute JSDoc via `npm run`, then remove the command definition.
 
 2. Delete the JSDoc configuration file.
 The installation instructions suggested the name `jsdoc-conf.json` for it.
@@ -290,7 +294,7 @@ For bugs and feature requests, please open an [issue](https://github.com/jramos-
 
 ## License
 
-This repository contains free software, licensed under the terms of the MIT License as published by the [Open Source Initiative](http://opensource.org).
+The Summarize2 plugin is free software, licensed under the terms of the MIT License as published by the [Open Source Initiative](http://opensource.org).
 
 See the file [LICENSE](LICENSE) for details.
 
