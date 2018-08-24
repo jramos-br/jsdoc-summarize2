@@ -4,15 +4,17 @@ about: Create a report to help us improve jsdoc-summarize2
 
 ---
 
-<!-- Thank you for reporting a possible bug in jsdoc-summarize2 plugin.
+<!--
+    Thank you for reporting a possible bug in jsdoc-summarize2 plugin.
 
-     Please provide a clear and concise summary of the issue in the title above
-     and fill in as much of the following template as you can. Likewise, please
-     provide a documentation sample that demonstrates the problem, keeping it as
-     simple and free from external dependencies as possible.
+    Please provide a clear and concise summary of the issue in the title above
+    and fill in as much of the following template as you can. Likewise, please
+    provide a documentation sample that demonstrates the problem, keeping it as
+    simple and free from external dependencies as possible.
 
-     If applicable, add screenshots and other relevant information to help
-     explain the problem. -->
+    If applicable, add screenshots and other relevant information to help
+    explain the problem.
+-->
 
 **Documentation sample**
 A source code fragment with documentation comments that reproduces the issue.
