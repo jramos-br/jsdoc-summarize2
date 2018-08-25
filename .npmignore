@@ -1,5 +1,8 @@
-# Generated HTML
-out/
+# Dependency directories
+node_modules/
 
 # GitHub Templates
 .github/
+
+# Generated HTML
+out/
