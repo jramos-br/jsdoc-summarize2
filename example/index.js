@@ -79,8 +79,8 @@ exports.div = function(x, y) {
  *
  * @returns {number} The sum of x and y.
  *
- * @description Sums two numbers only if both are Fibonacci primes. Otherwise
- * the function returns -1 to indicate an error.
+ * @description Sums two numbers only if both are Fibonacci primes.
+ * Otherwise the function returns -1 to indicate an error.
  *
  * @description A Fibonacci prime is a Fibonacci number that is prime.
  *
