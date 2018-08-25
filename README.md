@@ -112,7 +112,7 @@ The first one is untagged and the second is tagged.
 
 The default behavior of [JSDoc](https://npm.im/jsdoc) is to use only the last description in the comment block.
 Previous descriptions, if any, are ignored.
-Using the [Summarize2](https://npm.im/jsdoc-summarize2) plugin, you can write a comment block like above and, during the [JSDoc](https://npm.im/jsdoc) run, the plugin automatically changes the first description into a summary.
+Using the [Summarize2](https://npm.im/jsdoc-summarize2) plugin, you can write a comment block like the one above and, during the [JSDoc](https://npm.im/jsdoc) run, the plugin automatically changes the first description into a summary.
 
 ## Quick start
 
@@ -146,10 +146,10 @@ copy .\node_modules\jsdoc-summarize2\example\jsdoc-conf.json .
 
 ## Usage
 
-Run [JSDoc](https://npm.im/jsdoc) with the `--configure ` or `-c` [command-line option](http://usejsdoc.org/about-commandline.html) to use the [configuration file](http://usejsdoc.org/about-configuring-jsdoc.html) prepared during the installation.
+Run [JSDoc](https://npm.im/jsdoc) with the `--configure ` or `-c` [command-line option](http://usejsdoc.org/about-commandline.html) to use the [configuration file](http://usejsdoc.org/about-configuring-jsdoc.html) prepared during the installation. The installation instructions suggest the name `jsdoc-conf.json` for it.
 Also, pass the paths of the individual source code files.
 
-The code samples below use `index.js`, `module1.js` and `module2.js` as source code file names.
+The instructions below use `index.js`, `module1.js` and `module2.js` as examples of source code file names.
 They also use the [npx](https://npm.im/npx) command to run [JSDoc](https://npm.im/jsdoc).
 The command `npx jsdoc` is equivalent to `./node_modules/.bin/jsdoc` (with backslash on Windows).
 [npx](https://npm.im/npx) is available as of [npm@5.2.0](https://github.com/npm/npm/releases/tag/v5.2.0).
@@ -231,14 +231,12 @@ When you later run [JSDoc](https://npm.im/jsdoc), you must tell it to use the pr
     The `plugins` property in the [JSDoc configuration file](http://usejsdoc.org/about-configuring-jsdoc.html) must include a [Summarize2](https://npm.im/jsdoc-summarize2) plugin reference, as follows:
 
     ```json
-    {
-        "plugins": [
-            "jsdoc-summarize2"
-        ]
-    }
+    "plugins": [
+        "jsdoc-summarize2"
+    ],
     ```
 
-    If needed, you can create a [JSDoc configuration file](http://usejsdoc.org/about-configuring-jsdoc.html) from scratch in the project directory.
+    If needed, you can create a [JSDoc configuration file](http://usejsdoc.org/about-configuring-jsdoc.html) from scratch in the target project directory (the project you want do document).
     The suggested name is `jsdoc-conf.json`. You can copy the contents from the following example.
 
     ```json
@@ -274,7 +272,13 @@ If you did a global rather than a local install, please use `-g` instead of `--s
 To uninstall [Summarize2](https://npm.im/jsdoc-summarize2):
 
 1. Remove the [Summarize2](https://npm.im/jsdoc-summarize2) plugin reference from the `plugins` property in the [JSDoc configuration file](http://usejsdoc.org/about-configuring-jsdoc.html).
-The installation instructions suggested the name `jsdoc-conf.json` for it.
+The installation instructions suggest the name `jsdoc-conf.json` for it.
+
+    ```diff
+    "plugins": [
+    -   "jsdoc-summarize2"
+    ],
+    ```
 
 2. Uninstall [Summarize2](https://npm.im/jsdoc-summarize2).
 
@@ -286,8 +290,19 @@ If you also want to uninstall [JSDoc](https://npm.im/jsdoc):
 
 1. If you changed the `scripts` property in the `package.json` to define a command to execute [JSDoc](https://npm.im/jsdoc) via `npm run`, then remove that command definition.
 
+    ```diff
+    "scripts": {
+    -   "jsdoc": "jsdoc -c jsdoc-conf.json index.js module1.js module2.js"
+    },
+    ```
+
 2. Delete the [JSDoc configuration file](http://usejsdoc.org/about-configuring-jsdoc.html).
-The installation instructions suggested the name `jsdoc-conf.json` for it.
+The installation instructions suggest the name `jsdoc-conf.json` for it.
+
+    ```
+    rm jsdoc-conf.json (Unix)
+    del jsdoc-conf.json (Windows)
+    ```
 
 3. Uninstall [JSDoc](https://npm.im/jsdoc).
 
@@ -304,5 +319,6 @@ For bugs and feature requests, please open an [issue](https://github.com/jramos-
 The [Summarize2](https://npm.im/jsdoc-summarize2) plugin is free software, licensed under the terms of the MIT License as published by the [Open Source Initiative](http://opensource.org).
 
 See the file [LICENSE](LICENSE) for details.
+If you don't find it, please see the MIT License template at http://opensource.org/licenses/MIT.
 
 Copyright (C) 2018 Jorge Ramos https://github.com/jramos-br
