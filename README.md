@@ -302,7 +302,7 @@ The installation instructions suggest the name `jsdoc-conf.json` for it.
 
     ```
     rm jsdoc-conf.json (Unix)
-    
+
     del jsdoc-conf.json (Windows)
     ```
 
@@ -321,7 +321,6 @@ You can also submit a [PR](https://help.github.com/articles/creating-a-pull-requ
 ## License
 
 The [Summarize2](https://npm.im/jsdoc-summarize2) plugin is free software, licensed under the terms of the MIT License as published by the [Open Source Initiative](http://opensource.org).
-
 See the file [LICENSE](LICENSE) for details.
 If you don't find it, please see the MIT License template at http://opensource.org/licenses/MIT.
 
