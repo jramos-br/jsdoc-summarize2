@@ -15,8 +15,7 @@
   },
   "keywords": [
     "jsdoc",
-    "plugin",
-    "summary"
+    "jsdoc-plugin"
   ],
   "bugs": {
     "url": "https://github.com/jramos-br/jsdoc-summarize2/issues"

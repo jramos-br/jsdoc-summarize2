@@ -13,8 +13,7 @@
   },
   "keywords": [
     "jsdoc",
-    "plugin",
-    "summary",
+    "jsdoc-plugin",
     "example"
   ],
   "homepage": "https://github.com/jramos-br/jsdoc-summarize2/tree/master/example",
