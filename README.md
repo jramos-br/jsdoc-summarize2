@@ -46,12 +46,12 @@ Here is a [JSDoc comment block](http://usejsdoc.org) of a simple function.
 
 ```js
 /**
- * A function to add two Fibonacci primes.
+ * Adds two Fibonacci primes.
  *
- * @param {number} first The first number to add.
- * @param {number} second The second number to add.
+ * @param {number} x The first addend.
+ * @param {number} y The second addend.
  *
- * @returns {number} The sum of `first` and `second` numbers.
+ * @returns {number} The sum of x and y.
  *
  * @description Sums two numbers only if both are Fibonacci primes.
  * Otherwise the function returns -1 to indicate an error.
@@ -84,9 +84,11 @@ When [JSDoc](https://npm.im/jsdoc) runs, [Summarize2](https://npm.im/jsdoc-summa
  */
 ```
 
+The full example is in the [example](example) directory.
+
 You can see the generated HTML [here](http://htmlpreview.github.io/?https://github.com/jramos-br/jsdoc-summarize2/blob/master/example/out/module-example.html).
 
-The complete example is in the [example](example) directory.
+You can see the generated markdown document [here](example/api.md).
 
 ## Motivation
 
@@ -176,6 +178,7 @@ npm run jsdoc
 ### Transformation rules
 
 These are the rules used by [Summarize2](https://npm.im/jsdoc-summarize2) to process the comment blocks.
+The [example](example) directory contains the source code to demonstrate all cases.
 
 - If the comment block already has a summary tag, nothing will change.
 
@@ -321,7 +324,8 @@ You can also submit a [PR](https://help.github.com/articles/creating-a-pull-requ
 ## License
 
 The [Summarize2](https://npm.im/jsdoc-summarize2) plugin is free software, licensed under the terms of the MIT License as published by the [Open Source Initiative](http://opensource.org).
-See the file [LICENSE](LICENSE) for details.
+It is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+See the file [LICENSE](LICENSE) for more details.
 If you don't find it, please see the MIT License template at http://opensource.org/licenses/MIT.
 
 Copyright (C) 2018 Jorge Ramos https://github.com/jramos-br
