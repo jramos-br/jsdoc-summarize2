@@ -1,14 +1,15 @@
 /**
- * This plugin creates a summary tag, if there is none and if exists more than one
- * description tag. The content of the first description tag is moved to the summary.
- * Other description tags are combined into a single description.
+ * This plugin creates a summary tag, if there is none, and if there is more
+ * than one description tag. The contents of the first description tag are moved
+ * to the new summary tag. Other description tags are combined into a single
+ * description.
  *
  * @copyright (C) 2018 Jorge Ramos {@link https://github.com/jramos-br}
  *
- * @license MIT. This program is free software, licensed under the terms of the MIT
- * License as published by the Open Source Initiative. It is distributed in the hope
- * that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty
- * of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * @license MIT. This program is free software, licensed under the terms of the
+ * MIT License as published by the Open Source Initiative. It is distributed in
+ * the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the
+ * implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
  * See the file LICENSE for more details. If you don't find it, please see the
  * MIT License template at {@link http://opensource.org/licenses/MIT}.
  *
