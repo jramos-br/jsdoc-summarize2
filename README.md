@@ -276,9 +276,9 @@ To uninstall [Summarize2](https://npm.im/jsdoc-summarize2):
 The installation instructions suggest the name `jsdoc-conf.json` for it.
 
     ```diff
-    "plugins": [
-    -   "jsdoc-summarize2"
-    ],
+     "plugins": [
+    -    "jsdoc-summarize2"
+     ],
     ```
 
 2. Uninstall [Summarize2](https://npm.im/jsdoc-summarize2).
@@ -292,9 +292,9 @@ If you want to uninstall [JSDoc](https://npm.im/jsdoc) also:
 1. If you changed the `scripts` property in the `package.json` to define a command to execute [JSDoc](https://npm.im/jsdoc) via `npm run`, then remove that command definition.
 
     ```diff
-    "scripts": {
-    -   "jsdoc": "jsdoc -c jsdoc-conf.json index.js module1.js module2.js"
-    },
+     "scripts": {
+    -    "jsdoc": "jsdoc -c jsdoc-conf.json index.js module1.js module2.js"
+     },
     ```
 
 2. Delete the [JSDoc configuration file](http://usejsdoc.org/about-configuring-jsdoc.html).
@@ -302,6 +302,7 @@ The installation instructions suggest the name `jsdoc-conf.json` for it.
 
     ```
     rm jsdoc-conf.json (Unix)
+    
     del jsdoc-conf.json (Windows)
     ```
 
