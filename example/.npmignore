@@ -3,3 +3,6 @@ node_modules/
 
 # Generated HTML
 out/
+
+# Generated md
+api.md
