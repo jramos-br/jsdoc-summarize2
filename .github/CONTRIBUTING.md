@@ -18,7 +18,7 @@ If you don't find it, please [report an issue](/../../issues/new).
 
 ### Found a bug? Missing a feature?
 
-If you find a typo, a bug or some other kind of error in the source code or documentation, you can help us by [opening a bug report](/../../issues/new?template=bug_report.md).
+If you find a typo, a bug or some other kind of error in the source code or documentation, you can help us by [reporting a bug](/../../issues/new?template=bug_report.md).
 Even better, if you can fix the problem with a small change, feel free to submit a [pull request](/../../pulls).
 
 If you'd like to suggest a new feature or a major change, start by [opening a feature request](/../../issues/new?template=feature_request.md) with a description of what you'd like to do and why.
@@ -26,7 +26,7 @@ This way, your suggestions can be discussed with other people before any changes
 
 ### Important
 
-Before you open a bug report or a feature request or submit a pull request, be sure to [search](https://help.github.com/articles/searching-issues-and-pull-requests) through the [issues](/../../issues) and [pull requests](/../../pulls) in the repository, to see whether someone else has raised a similar question.
+Before you report a bug, open a feature request or submit a pull request, be sure to [search](https://help.github.com/articles/searching-issues-and-pull-requests) through the [issues](/../../issues) and [pull requests](/../../pulls) in the repository, to see whether someone else has raised a similar question.
 
 Also, please provide clear and concise titles for the issues and pull requests as well as fill in the descriptions as precisely as possible.
 
