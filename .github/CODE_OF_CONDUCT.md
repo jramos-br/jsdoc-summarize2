@@ -41,6 +41,6 @@ Seek to understand the other viewpoints and resolve differences constructively.
 ## License
 
 This code of conduct is licensed under the terms of the MIT License as published by the [Open Source Initiative](http://opensource.org).
-See the file [LICENSE](LICENSE) for more details. If you don't find it, please see the MIT License template at http://opensource.org/licenses/MIT.
+See the file [LICENSE](/LICENSE) for more details. If you don't find it, please see the MIT License template at http://opensource.org/licenses/MIT.
 
 This code of conduct is a derivative of [Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct) by [Microsoft](https://www.microsoft.com), used under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0).

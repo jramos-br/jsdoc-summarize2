@@ -5,7 +5,7 @@
 <div align="center">
 <img src="summarize2.png" width="320" heigth="80" center>
 
-[![GitHub license](https://img.shields.io/github/license/jramos-br/jsdoc-summarize2.svg)](https://github.com/jramos-br/jsdoc-summarize2/blob/master/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/jramos-br/jsdoc-summarize2.svg)](/../../blob/master/LICENSE)
 [![npm](https://img.shields.io/npm/v/jsdoc-summarize2.svg)](https://npm.im/jsdoc-summarize2)
 [![node](https://img.shields.io/node/v/jsdoc-summarize2.svg)](https://github.com/jramos-br/jsdoc-summarize2)
 
@@ -315,13 +315,13 @@ The installation instructions suggest the name `jsdoc-conf.json` for it.
 ## Contributing
 
 Your contributions are welcome!
-For bugs and feature requests, you may open an [issue](https://github.com/jramos-br/jsdoc-summarize2/issues) in GitHub.
-For more information, have a look at the contribution guidelines in the file [CONTRIBUTING.md](CONTRIBUTING.md).
+For bugs and feature requests, you may open an [issue](/../../issues) in GitHub.
+For more information, have a look at the contribution guidelines in the file [CONTRIBUTING.md](.github/CONTRIBUTING.md).
 
 ## License
 
 The [Summarize2](https://npm.im/jsdoc-summarize2) plugin is free software, licensed under the terms of the MIT License as published by the [Open Source Initiative](http://opensource.org).
 It is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-See the file [LICENSE](LICENSE) for more details. If you don't find it, please see the MIT License template at http://opensource.org/licenses/MIT.
+See the file [LICENSE](/LICENSE) for more details. If you don't find it, please see the MIT License template at http://opensource.org/licenses/MIT.
 
 Copyright (C) 2018 Jorge Ramos https://github.com/jramos-br

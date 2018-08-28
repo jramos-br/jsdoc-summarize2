@@ -8,24 +8,30 @@ If you're new to open source, please check out [Open Source Guides](https://open
 We use GitHub to host code and documentation, to track issues and feature requests as well as to receive pull requests.
 If you're new to GitHub, you can browse the [guides](https://guides.github.com), or maybe you just need a little [help](https://help.github.com).
 
+## Code of conduct
+
+This project has a code of conduct that all contributors are expected to follow.
+Please see the file [CODE_OF_CONDUCT.md](/.github/CODE_OF_CONDUCT.md) for details.
+If you don't find it, please [report an issue](/../../issues/new).
+
 ## How to contribute
 
 Found a bug?
 Missing a feature?
 
-If you find a typo, a bug or some other kind of error in the source code or documentation, you can help us by [opening an issue](https://github.com/jramos-br/jsdoc-summarize2/issues/new/choose).
-Even better, if you can fix the problem with a small change, feel free to submit a [pull request](https://github.com/jramos-br/jsdoc-summarize2/pulls).
+If you find a typo, a bug or some other kind of error in the source code or documentation, you can help us by [opening a bug report](/../../issues/new?template=bug_report.md).
+Even better, if you can fix the problem with a small change, feel free to submit a [pull request](/../../pulls).
 
-If you'd like to suggest a new feature or a major change, start by [opening an issue](https://github.com/jramos-br/jsdoc-summarize2/issues/new/choose) with a description of what you'd like to do and why.
+If you'd like to suggest a new feature or a major change, start by [opening a feature request](/../../issues/new?template=feature_request.md) with a description of what you'd like to do and why.
 This way, your suggestions can be discussed with other people before any changes are made.
 
-Important: before you open an issue or submit a pull request, be sure to [search](https://help.github.com/articles/searching-issues-and-pull-requests) through the [issues](https://github.com/jramos-br/jsdoc-summarize2/issues) and [pull requests](https://github.com/jramos-br/jsdoc-summarize2/pulls) in the repository, to see whether someone else has raised a similar question.
+Important: before you open a bug report, a feature request or submit a pull request, be sure to [search](https://help.github.com/articles/searching-issues-and-pull-requests) through the [issues](/../../issues) and [pull requests](/../../pulls) in the repository, to see whether someone else has raised a similar question.
 
 ## Pull requests workflow
 
 ### Recommendations
 
-- [Open an issue](https://github.com/jramos-br/jsdoc-summarize2/issues/new/choose) and discuss the change with other people, unless it's a very simple one.
+- [Open a feature request](/../../issues/new?template=feature_request.md) and discuss the change with other people, unless it's a very simple one.
 - If you're new to [git](https://git-scm.com), you might check out the online book [Pro Git](https://git-scm.com/book/en/v2).
 - The process outlined here is detailed in [Git Workflow](https://www.asmeurer.com/git-workflow).
 
@@ -59,7 +65,7 @@ Important: before you open an issue or submit a pull request, be sure to [search
 
 ## Coding Style
 
-- Format seetings for Visual Studio Code in [.vscode/settings.json](blob/master/.vscode/settings.json).
+- Format seetings for Visual Studio Code in [.vscode/settings.json](/.vscode/settings.json).
 - 2 spaces for indentation rather than tabs.
 - Maximum line length is 90 characters.
 - No warnings or errors from eslint.
@@ -67,5 +73,5 @@ Important: before you open an issue or submit a pull request, be sure to [search
 ## License
 
 By contributing, you agree that your contributions will be licensed under the terms of the MIT License.
-See the file [LICENSE](LICENSE) for the MIT license details.
-If you don't find it, please [report an issue](https://github.com/jramos-br/jsdoc-summarize2/issues/new).
+See the file [LICENSE](/LICENSE) for the MIT license details.
+If you don't find it, please [report an issue](/../../issues/new).
