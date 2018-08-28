@@ -5,9 +5,9 @@
 <div align="center">
 <img src="summarize2.png" width="320" heigth="80" center>
 
-[![GitHub license](https://img.shields.io/github/license/jramos-br/jsdoc-summarize2.svg)](/../../blob/master/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/jramos-br/jsdoc-summarize2.svg)](/LICENSE)
 [![npm](https://img.shields.io/npm/v/jsdoc-summarize2.svg)](https://npm.im/jsdoc-summarize2)
-[![node](https://img.shields.io/node/v/jsdoc-summarize2.svg)](https://github.com/jramos-br/jsdoc-summarize2)
+[![node](https://img.shields.io/node/v/jsdoc-summarize2.svg)](/../../)
 
 </div>
 
@@ -315,8 +315,7 @@ The installation instructions suggest the name `jsdoc-conf.json` for it.
 ## Contributing
 
 Your contributions are welcome!
-For bugs and feature requests, you may open an [issue](/../../issues) in GitHub.
-For more information, have a look at the contribution guidelines in the file [CONTRIBUTING.md](.github/CONTRIBUTING.md).
+Have a look at the contribution guidelines in the file [CONTRIBUTING.md](/.github/CONTRIBUTING.md).
 
 ## License
 
