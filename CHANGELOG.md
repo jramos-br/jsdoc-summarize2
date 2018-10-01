@@ -16,8 +16,17 @@ For each commit, the names and status of the changed files are listed. See the f
 
 ## Commit History
 
+2018-10-01 13:39:48 -0300 | Jorge Ramos <jramos@pobox.com>  
+45d95d4 (HEAD -> master)  
+Update docs  
+
+    M | CHANGELOG.md
+    M | CONTRIBUTING.md
+    M | README.md
+    M | changelog.js
+
 2018-10-01 13:30:17 -0300 | Jorge Ramos <jramos@pobox.com>  
-80910c7 (HEAD -> master, tag: v0.1.4, origin/master, origin/HEAD)  
+80910c7 (tag: v0.1.4, origin/master, origin/HEAD)  
 0.1.4  
 
     M | package-lock.json
