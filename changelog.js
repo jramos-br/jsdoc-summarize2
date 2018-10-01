@@ -62,9 +62,9 @@ ostream.write('## Commit History' + eol);
 
 rl.on('line', function(input) {
   if (input) {
-    if (/^\S\t/.test(input)) {
-      input = '    ' + input.charAt(0) + ' | ' + input.substring(2);
-      ostream.write(input + eol);
+    var temp = input.replace(/^([A-Z][0-9]*)\t/, '    $1 | ');
+    if (temp !== input) {
+      ostream.write(temp + eol);
     } else {
       ostream.write(input + '  ' + eol);
     }

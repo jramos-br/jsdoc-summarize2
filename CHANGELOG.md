@@ -16,8 +16,21 @@ For each commit, the names and status of the changed files are listed. See the f
 
 ## Commit History
 
+2018-10-01 13:11:36 -0300 | Jorge Ramos <jramos@pobox.com>  
+2c2c998 (HEAD -> master, origin/master, origin/HEAD)  
+Update docs  
+
+    D | .github/CONTRIBUTING.md
+    A | CHANGELOG.md
+    R063 | .github/CODE_OF_CONDUCT.md	CODE_OF_CONDUCT.md
+    A | CONTRIBUTING.md
+    A | NEWS.md
+    M | README.md
+    A | changelog.js
+    M | package.json
+
 2018-08-28 15:20:52 -0300 | Jorge Ramos <jramos@pobox.com>  
-2f2c48b (HEAD -> master, origin/master, origin/HEAD)  
+2f2c48b  
 Updates CONTRIBUTING  
 
     M | .github/CONTRIBUTING.md
