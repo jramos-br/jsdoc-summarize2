@@ -1,9 +1,9 @@
 # Changelog
 
-This file contains a list of the changes committed to the source control.
+This file contains a list of changes committed to the source control.
 Developers can read the commit history to help them when investigating bugs, conceptual inconsistencies and other issues.
 
-For a high-level summary of the changes in each release, please refer to the file [NEWS](/NEWS.md).
+For a high-level summary of the changes in each release, please refer to the file [NEWS.md](/NEWS.md).
 
 For each commit, the names and status of the changed files are listed. See the following table on what the status letters mean.
 
@@ -16,8 +16,22 @@ For each commit, the names and status of the changed files are listed. See the f
 
 ## Commit History
 
+2018-10-01 13:30:17 -0300 | Jorge Ramos <jramos@pobox.com>  
+80910c7 (HEAD -> master, tag: v0.1.4, origin/master, origin/HEAD)  
+0.1.4  
+
+    M | package-lock.json
+    M | package.json
+
+2018-10-01 13:30:05 -0300 | Jorge Ramos <jramos@pobox.com>  
+a9c6218  
+Update docs  
+
+    M | CHANGELOG.md
+    M | changelog.js
+
 2018-10-01 13:11:36 -0300 | Jorge Ramos <jramos@pobox.com>  
-2c2c998 (HEAD -> master, origin/master, origin/HEAD)  
+2c2c998  
 Update docs  
 
     D | .github/CONTRIBUTING.md

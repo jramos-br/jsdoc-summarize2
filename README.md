@@ -358,8 +358,8 @@ The file [NEWS.md](/NEWS.md) provides a high-level summary of the changes in eac
 Users are advised to review the change history before switching to a new version of the
 package.
 
-The file [CHANGELOG.md](/CHANGELOG.md) contains a list of the changes committed to the
-source control.
+The file [CHANGELOG.md](/CHANGELOG.md) contains a list of changes committed to the source
+control.
 Developers can read the commit history to help them when investigating bugs, conceptual
 inconsistencies and other issues.
 

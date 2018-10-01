@@ -174,8 +174,8 @@ which don't relate to what your change is trying to achieve.
 
 ## How to generate CHANGELOG
 
-The file [CHANGELOG.md](/CHANGELOG.md) contains a list of the changes committed to the
-source control.
+The file [CHANGELOG.md](/CHANGELOG.md) contains a list of changes committed to the source
+control.
 
 The purpose of the change log is so that people investigating bugs in the future will know
 about the changes that might have introduced the bug.

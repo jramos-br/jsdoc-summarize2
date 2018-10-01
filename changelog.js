@@ -41,10 +41,10 @@ var rl = readline.createInterface({
 ostream.write('# Changelog' + eol);
 ostream.write(eol);
 
-ostream.write('This file contains a list of the changes committed to the source control.' + eol);
+ostream.write('This file contains a list of changes committed to the source control.' + eol);
 ostream.write('Developers can read the commit history to help them when investigating bugs, conceptual inconsistencies and other issues.' + eol);
 ostream.write(eol);
-ostream.write('For a high-level summary of the changes in each release, please refer to the file [NEWS](/NEWS.md).' + eol);
+ostream.write('For a high-level summary of the changes in each release, please refer to the file [NEWS.md](/NEWS.md).' + eol);
 ostream.write(eol);
 
 ostream.write('For each commit, the names and status of the changed files are listed. See the following table on what the status letters mean.' + eol);
