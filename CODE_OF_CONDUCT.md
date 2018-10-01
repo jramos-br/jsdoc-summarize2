@@ -1,6 +1,7 @@
 # Code of Conduct
 
-This code of conduct outlines expectations for participation in the [Summarize2](https://npm.im/jsdoc-summarize2) project.
+This code of conduct outlines expectations for participation in the
+[Summarize2](https://npm.im/jsdoc-summarize2) project.
 We are committed to providing a welcoming and inspiring community for all.
 People violating this code of conduct may be banned from the community.
 
@@ -12,12 +13,16 @@ We expect the code to be followed in spirit as much as in the letter.
 
 ### Be friendly and patient
 
-Remember you might not be communicating in someone else's primary spoken or programming language, and others may not have your level of understanding.
+Remember you might not be communicating in someone else's primary spoken or programming
+language, and others may not have your level of understanding.
 
 ### Be welcoming
 
-Our communities welcome and support people of all backgrounds and identities.
-This includes, but is not limited to members of any race, ethnicity, culture, national origin, color, immigration status, social and economic class, educational level, sex, sexual orientation, gender identity and expression, age, size, family status, political belief, religion, and mental and physical ability.
+Our community welcomes and supports people of all backgrounds and identities.
+This includes, but is not limited to members of any race, ethnicity, culture, national
+origin, color, immigration status, social and economic class, educational level, sex,
+sexual orientation, gender identity and expression, age, size, family status, political
+belief, religion, and mental and physical ability.
 
 ### Be respectful
 
@@ -40,7 +45,12 @@ Seek to understand the other viewpoints and resolve differences constructively.
 
 ## License
 
-This code of conduct is licensed under the terms of the MIT License as published by the [Open Source Initiative](http://opensource.org).
-See the file [LICENSE](/LICENSE) for more details. If you don't find it, please see the MIT License template at http://opensource.org/licenses/MIT.
+This code of conduct is licensed under the terms of the MIT License as published by the
+[Open Source Initiative](http://opensource.org).
+See the file [LICENSE](/LICENSE) for more details.
+If you don't find it, please see the MIT License template at http://opensource.org/licenses/MIT.
 
-This code of conduct is a derivative of [Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct) by [Microsoft](https://www.microsoft.com), used under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0).
+This code of conduct is a derivative of
+[Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct)
+by [Microsoft](https://www.microsoft.com),
+used under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0).

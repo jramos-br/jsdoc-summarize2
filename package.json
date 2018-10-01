@@ -3,6 +3,9 @@
   "version": "0.1.3",
   "description": "A jsdoc plug-in to transform the first of the description tags into a summary tag.",
   "main": "index.js",
+  "scripts": {
+    "changelog": "node changelog.js CHANGELOG.md"
+  },
   "directories": {
     "example": "./example"
   },
